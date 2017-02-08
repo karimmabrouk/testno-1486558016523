@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: testno
+  host: testno
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform-75
+  - Language Translator-rj
+  - Visual Recognition-8n
